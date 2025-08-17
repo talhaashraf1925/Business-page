@@ -45,7 +45,7 @@ export default function Footer() {
               </a>
               <a
                 href="mailto:ahmyy680@gmail.com"
-                className="text-decoration-none text-light d-block mt-4"
+                className="text-decoration-none text-light d-block"
               >
                 <FaEnvelope className="me-2 text-success" />{" "}
                 ahmyy680@gmail.com
