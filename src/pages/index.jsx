@@ -38,7 +38,7 @@ export default function Home() {
             />
           </h2>
 
-          <p className="mt-3 text-lg-[22px]">
+          <p className="mt-3 text-[15px]">
             From basics to advanced – step-by-step learning path
           </p>
 
@@ -92,6 +92,8 @@ export default function Home() {
                     don’t just teach you how to code — we help you build a
                     career in web development.<br></br>
                     <br></br>{" "}
+                  
+                  </p>
                     <p>
                       📍 Now available in your city <strong>Multan</strong> with
                       competitive fees. Enjoy the first{" "}
@@ -99,7 +101,6 @@ export default function Home() {
                       experience our professionalism. After that, you can decide
                       how you’d like to continue learning with us.
                     </p>
-                  </p>
                 </div>
               </div>
             </Col>
@@ -109,7 +110,7 @@ export default function Home() {
       {/* Section Learning */}
       <section className="section py-5" id="courses">
         <div className="container">
-          <h2 className="fw-bold mb-5">✨ What You’ll Learn</h2>
+          <h2 className="fw-bold mb-3">✨ What You’ll Learn</h2>
           <div className="row g-4">
             {/* Frontend */}
             <div className="col-lg-4 col-md-6 col-sm-12 col-12">
@@ -182,12 +183,8 @@ export default function Home() {
       {/* Section Method */}
       <section className="section py-5" id="method">
         <div className="container">
-          <h2 className="fw-bold">✨ Our Teaching Method</h2>
-          <p className="mb-2 text-light opacity-75">
-            We believe in <strong>learning by doing</strong>. Our method blends
-            theory with practice, helping students build real projects and
-            prepare for freelancing & career success.
-          </p>
+          <h2 className="fw-bold mb-4">✨ Our Teaching Method</h2>
+         
 
           <div className="row g-4">
             {/* Step 1 */}
