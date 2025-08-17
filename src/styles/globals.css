@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Navbar */
+.navbar{
+  border-bottom: 1px solid #fff;
+}
+.navbar .nav-link {
+  color: #fff !important;
+}
+.navbar .navbar-nav{
+  margin-right: 400px;
+}
+
+/* Hero Section */
+.hero-detail h2{
+    font-family: "Mozilla Headline", sans-serif ;
+}
+/* About Section */
+.about-detail p{
+    font-family: "Mozilla Headline", sans-serif ;
+    font-size: 17px;
+    text-align: justify;
+}
+/* Courses Section */
+#courses  .card {
+  background-color: #161b22;
+  border: none;
+  border-radius: 12px;
+  color: #f5f5f5;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease-in-out;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
+}
+.card h5 {
+  font-weight: 600;
+  margin-top: 10px;
+}
+.card p {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+/* Method Section */
+#method  .card {
+  background-color: #161b22;
+  border: none;
+  border-radius: 12px;
+  color: #f5f5f5;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease-in-out;
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .navbar .navbar-nav{
+   margin: auto;
+}
+  
+}
+
+
+
